@@ -4,6 +4,6 @@
 <h1>Films by {{ director }}</h1>
 <ul>
     {% for movie in movies %}
-        <li>{{movie.year}} - {{ movie.title }}</li>
+    <li > <a href="movies/{{ movie.title }}">{{movie.year}} - {{ movie.title }}</a>></li>
     {% endfor %}
 </ul>
